@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # USAGE:
-# $ sh sh.sh [CPUs] [snippy.full.clean.aln] [PREFIX]
+# $ sh Abuul_afa-core.sh [CPUs] [snippy.full.clean.aln] [PREFIX]
 
 N_SPLIT=$1
 MFA=$2
