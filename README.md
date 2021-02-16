@@ -5,10 +5,10 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
     $ git clone https://github.com/abuultjens/Abuul_afa-core.git
 
 ### run the script  
-    $ sh Abuul_afa-core/Abuul_afa-core.sh [CPUs] [snippy.full.clean.aln] [PREFIX]  
+    $ sh Abuul_afa-core/Abuul_afa-core.sh [PROCESSES] [snippy.full.clean.aln] [PREFIX]  
 
 ##### arguments: 
-``CPUs`` number of parallel processes to run (15 is a good choice between speed and compute resources)  
+``PROCESSES`` number of parallel processes to run (15 is a good choice between speed and compute resources)  
 ``snippy.full.clean.aln`` snippy whole genome multi fasta alignment with sequence blocks consiting of only: A, G, C, T and N. This can be done with snippy-clean_full_aln (https://github.com/tseemann/snippy)  
 ``PREFIX`` prefix for outfiles  
 
