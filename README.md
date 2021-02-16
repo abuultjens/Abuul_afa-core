@@ -17,7 +17,7 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
 ``[PREFIX]_core_pos.txt`` list of core positions  
 ``[PREFIX]_non-core_pos.txt`` list of non-core positions  
 ``[PREFIX]_core.tsv`` tab seperated file of core positions and isolate base calls  
-``[PREFIX]_non-core.tsv`` tab seperated file of non-core positions and isolate base calls  
+``[PREFIX]_non-core.tsv`` tab seperated file of non-core positions and isolate base calls. Note that the index column is position in the total concatinated ref including the chr and any plasmid elements. You will have to determine where the chr ends and plasmids start in this index.
 
 # Example
 
