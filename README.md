@@ -35,8 +35,8 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
 ### run Abuul_afa-core.sh
     $ sh Abuul_afa-core/Abuul_afa-core.sh 10 test.full.clean.aln test  
     
-### cheak outfiles
-    $ head TEST_core_pos.txt
+### check outfiles
+    $ head test_core_pos.txt
     268
     269
     270
@@ -48,7 +48,7 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
     276
     277
     
-    $ head TEST_non-core_pos.txt 
+    $ head test_non-core_pos.txt 
     1
     2
     3
@@ -60,8 +60,8 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
     9
     10
     
-    $ head TEST_core.tsv | cut -f 1-4
-    INDEX   110479825-Sacha 110493460-Sacha 120596152-Sacha
+    $ head test_core.tsv
+    INDEX   isolate_1 isolate_2 isolate_3
     268     A       A       A
     269     T       T       T
     270     A       A       A
@@ -72,8 +72,8 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
     275     A       A       A
     276     A       A       A
     
-    $ head TEST_non-core.tsv | cut -f 1-4
-    INDEX   110479825-Sacha 110493460-Sacha 120596152-Sacha
+    $ head test_non-core.tsv
+    INDEX   isolate_1 isolate_2 isolate_3
     1       A       N       A
     2       T       N       T
     3       G       G       G
