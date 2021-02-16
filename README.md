@@ -37,18 +37,6 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
     
 ### check outfiles
     $ head test_core_pos.txt
-    268
-    269
-    270
-    271
-    272
-    273
-    274
-    275
-    276
-    277
-    
-    $ head test_non-core_pos.txt 
     1
     2
     3
@@ -59,6 +47,18 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
     8
     9
     10
+    
+    $ head test_non-core_pos.txt 
+    400
+    403
+    412
+    424
+    426
+    430
+    442
+    443
+    444
+    445
     
     $ head test_core.tsv
     INDEX   isolate_1      isolate_2      isolate_3      Reference
@@ -74,17 +74,15 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
     
     $ head test_non-core.tsv
     INDEX   isolate_1      isolate_2      isolate_3      Reference
-    1       A       A       A       A
-    2       T       T       T       T
-    3       G       G       G       G
-    4       T       T       T       T
-    5       C       C       C       C
-    6       G       G       G       G
-    7       G       G       G       G
-    8       A       A       A       A
-    9       T       T       T       T
-
-
+    400     G       G       N       G
+    403     A       A       N       A
+    412     G       G       N       G
+    424     G       G       N       G
+    426     G       G       N       G
+    430     G       G       N       G
+    442     N       N       N       G
+    443     A       A       N       A
+    444     A       A       N       A
     
 
     
