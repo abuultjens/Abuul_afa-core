@@ -1,5 +1,5 @@
 # Abuul_afa-core
-Produces a list of positions that are core and non-core from a snippy full genome alignment
+Rapidly produces a list of core and non-core positions from a snippy full genome alignment
 
 ### get the code
     $ git clone https://github.com/abuultjens/Abuul_afa-core.git
@@ -9,7 +9,7 @@ Produces a list of positions that are core and non-core from a snippy full genom
 
 ##### arguments: 
 ``CPUs`` number of parallel processes to run  
-``snippy.full.clean.aln`` snippy whole genome multi fasta alignment with sequence blocks consiting of only: A, G, C, T and N. This can be done with snippy-clean_full_aln (https://github.com/tseemann/snippy).  
+``snippy.full.clean.aln`` snippy whole genome multi fasta alignment with sequence blocks consiting of only: A, G, C, T and N. This can be done with snippy-clean_full_aln (https://github.com/tseemann/snippy)  
 ``PREFIX`` prefix for outfiles  
 
 # Outfiles
