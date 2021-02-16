@@ -61,28 +61,28 @@ Rapidly produces a list of core and non-core positions from a snippy full genome
     10
     
     $ head test_core.tsv
-    INDEX   isolate_1 isolate_2 isolate_3
-    268     A       A       A
-    269     T       T       T
-    270     A       A       A
-    271     G       G       G
-    272     A       A       A
-    273     A       A       A
-    274     G       G       G
-    275     A       A       A
-    276     A       A       A
+    INDEX   isolate_1      isolate_2      isolate_3      Reference
+    1       A       A       A       A
+    2       T       T       T       T
+    3       G       G       G       G
+    4       T       T       T       T
+    5       C       C       C       C
+    6       G       G       G       G
+    7       G       G       G       G
+    8       A       A       A       A
+    9       T       T       T       T
     
     $ head test_non-core.tsv
-    INDEX   isolate_1 isolate_2 isolate_3
-    1       A       N       A
-    2       T       N       T
-    3       G       G       G
-    4       G       G       G
-    5       T       T       T
-    6       A       A       A
-    7       T       T       T
-    8       C       C       C
-    9       C       C       C
+    INDEX   isolate_1      isolate_2      isolate_3      Reference
+    1       A       A       A       A
+    2       T       T       T       T
+    3       G       G       G       G
+    4       T       T       T       T
+    5       C       C       C       C
+    6       G       G       G       G
+    7       G       G       G       G
+    8       A       A       A       A
+    9       T       T       T       T
 
 
     
