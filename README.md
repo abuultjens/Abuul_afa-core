@@ -1,5 +1,5 @@
 # Abuul_afa-core
-Rapidly produces a list of core and non-core positions from a snippy full genome alignment. This tool is exclusively written in BASH and will run on virtually any system without having any dependencies. 
+Rapidly produces a list of core and non-core positions from a snippy full genome alignment. This tool is exclusively written in BASH and will run on virtually any system without the need for dependencies. 
 
 ### get the code
     $ git clone https://github.com/abuultjens/Abuul_afa-core.git
