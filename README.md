@@ -16,8 +16,8 @@ Produces a list of positions that are core and non-core from a snippy full genom
 
 ``[PREFIX]_core_pos.txt`` list of core positions  
 ``[PREFIX]_non-core_pos.txt`` list of non-core positions  
-``[PREFIX]_core.tsv`` tab seperated file of core positions and isolate base calls
-``[PREFIX]_non-core.tsv`` tab seperated file of non-core positions and isolate base calls
+``[PREFIX]_core.tsv`` tab seperated file of core positions and isolate base calls  
+``[PREFIX]_non-core.tsv`` tab seperated file of non-core positions and isolate base calls  
 
 # Example
 
