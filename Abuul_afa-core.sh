@@ -28,7 +28,7 @@ echo "Reading ${N_TAXA} isolates"
 # split fofn
 split -d -l ${N_SPLIT} ${RAND}_fofn.txt FOFN_${RAND}_
 
-# make fofn fofn
+# make group fofn
 ls FOFN_${RAND}_* > ${RAND}_FOFN.txt
 
 for GROUP in $(cat ${RAND}_FOFN.txt); do
